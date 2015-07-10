@@ -1,0 +1,327 @@
+@media only screen and (max-width : 1190px) {
+.timeline-item-container {
+	max-width:685px;
+}
+.timeline-circle {
+	left: 336.99px;
+}
+.timeline-circle:hover {
+	left: 335px;
+}
+.timeline-align-left,
+.timeline-align-right {
+	width:300px;
+	padding:15px;
+}
+.timeline-align-left .timeline-arrow:before {
+	left:290px;
+}
+}
+@media only screen and (max-width : 1024px) {
+.ads-img-holder {
+	width:110px;
+	height:110px;
+}
+}
+@media only screen and (max-width : 990px) {
+.delve_content {
+	float:none !important;
+	width:100%;
+}
+.delve-top-nav-right,
+.footer-right-side {
+	text-align:left;
+}
+}
+@media only screen and (max-width : 800px) {
+.page-title .delve-breadcrumb {
+	display:none;
+}
+.col-md-3.delve-sidebar {
+	clear:both;	
+}
+}
+
+@media only screen and (max-width : 800px) and (min-width : 481px){
+.delve-top-nav .delve-top-nav-left {
+	display: inline;
+ 	width: 50%;
+	float: left;
+}
+.delve-top-nav .delve-top-nav-right {
+	float: right;
+ 	width: 50%;
+	text-align:right;
+}	
+}
+
+@media only screen and (max-width : 767px) {
+.sticky-header {
+	display:none !important;
+}
+.delve-top-nav{
+	/*display:none;	*/
+}	
+.navbar-header {
+	width:100%;
+	display:table;
+	margin:0;
+	float:none;
+}
+.navbar-inverse .navbar-collapse {
+	background:#FFF;
+	padding:0;
+	border-bottom:1px solid;
+	webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.navbar-nav {
+	padding:0;
+	margin:0;
+}
+.menu-menu {
+	width:100%;
+	z-index:1030;
+}
+.navbar-nav > li {
+	padding:0;
+	border-bottom:1px solid;
+	display:block !important;
+	float:none;
+}
+.navbar-nav > li > a {
+	padding:0 15px;
+	line-height:35px !important;
+	text-align:left;
+	border-top:none;
+}
+.navbar-header button {
+	margin:14px;
+}
+.navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	opacity:0.7;
+}
+.dropdown .dropdown-menu,
+.dropdown-menu .sub-menu {
+	width: 100%;
+	right: 0px;
+	left: inherit;
+	position:relative;
+	box-shadow:none;
+	margin:0;
+}
+.dropdown .dropdown-menu li a {
+	padding-left:35px;
+}
+.dropdown-menu .sub-menu li a {
+	padding-left:70px;
+}
+.sticky-header .navbar-header {
+	display:block !important;
+}
+.navbar > .container_header .navbar-brand {
+	left:0 !important;
+	/*max-width:50%;*/
+}
+.navbar > .container_header .navbar-brand span,
+.navbar > .container_header .navbar-brand img {
+	right:0 !important;
+	float: none !important;
+}
+.container_header {
+	line-height:15px;
+}
+/*** timelime preview ***/
+.timeline-item-container {
+	background:none;
+}
+.timeline-circle,
+.timeline-arrow {
+	display:none;
+}
+.timeline-align-left,
+.timeline-align-right {
+	width:100%;
+	clear:both;
+}
+.timeline-date {
+	border-bottom:3px solid #ecf0f1;
+}
+}
+@media only screen and (max-width: 600px) {
+	.navbar-inverse .navbar-collapse{
+		margin-top:-1px;
+		border-top:none;
+	}
+	.nav .dropdown-toggle .caret{
+	  float: right;
+	  margin-right: 0;
+	  display: inline-block;
+	  position: relative;
+	  height: auto;
+	  width: 40px;
+	  text-align: center;
+	  padding: 0 15px;
+	  margin-top: -1px;	
+	}
+	
+	.navbar-nav > li > a{ padding-right:0; }
+	.nav .dropdown-menu .dropdown-toggle .caret:after{
+		content:" + ";
+	}
+	.nav .dropdown-menu .open .caret:after{
+		content:" - ";	
+	}
+	.navbar-nav > li{
+		border:none;
+	}
+	.dropdown-menu{
+		border:none;	
+	}
+	.nav .open .caret:after{
+		content:'\f106';
+	}
+	.dropdown-menu>li>a{
+		border-top:none;
+		padding:0 0 0 20px;
+		line-height:32px !important;
+	}
+	
+	.navbar-toggle .icon-bar {
+		  position: relative;
+		  transition: all 500ms ease-in-out;
+	}
+	.navbar-toggle.active .icon-bar:nth-of-type(2) {
+		  top: 8px;
+		  transform: rotate(45deg);
+	}
+	.navbar-toggle.active .icon-bar:nth-of-type(3) {
+		  background-color: transparent;
+	}
+	.navbar-toggle.active .icon-bar:nth-of-type(4) {
+		  top: -6px;
+		  transform: rotate(-45deg);
+	}
+}
+@media only screen and (max-width : 540px) {
+.footer {
+	line-height:30px;
+}
+}
+@media only screen and (max-width : 480px) {
+.woocommerce-cart .wrapper,
+{
+	padding-top:10px;	
+}	
+/*woocommerce cart page*/
+.woocommerce-cart-list h2{
+	font-size:18px;
+}
+.delve-top-nav{
+	/*display:none;	*/
+}	
+.navbar > .container_header .navbar-brand{
+	max-height:65px;	
+}
+.delve-top-nav span.top-nav-opt{
+	width:100%;
+	border:none;
+	text-align:center;	
+}
+.delve-top-nav .social-icon-container{
+	width:100%;
+	max-width:100%;
+	text-align:center;
+}
+.delve-top-nav .col-md-6{
+	padding:0;	
+}
+.navbar > .container_header .navbar-brand {
+	width:44% !important;	
+}
+.col-md-6.delve-top-nav-right,.col-md-6.delve-top-nav-left {
+	text-align:center;	
+}
+.portfolioFilter a{
+	margin-bottom: 10px;
+}
+}
+@media only screen and (max-width : 320px) {
+.woocommerce-cart .wrapper{
+	padding-top:10px;	
+}	
+.delve-top-nav{
+/*	display:none;*/	
+}	
+.delve-social  {
+	line-height:45px;
+}
+.delve-full-width-box-container {
+	margin-bottom:45px;
+}
+.flexslider-wrap{
+	padding:0 20px;	
+}
+/*Comment Form*/
+#delve-comment-inputs input[type]{
+	width: 100%;
+	max-width: none;	
+}
+/*pie progress*/
+.pie_progress svg{
+	/*margin-left:-30px;*/
+}
+/*divider with text add scrollbar in 320 size device*/
+.divider_text.center,
+.center-help{
+	position:relative;
+	text-align:center;
+	left:auto;
+}
+.navbar > .container_header .navbar-brand{
+	max-height:55px;	
+}
+.timeline-item-container{
+	margin-top:0;	
+}
+/*woocommerce cart page*/
+.woocommerce-cart-list h2{
+	font-size:16px;
+}
+/*blog timeline template*/
+.timeline-post-title .delve-entry-title{
+	font-size:18px;	
+}
+/**/
+#blog-timeline{
+	margin-top: -35px;	
+}
+/*logo*/
+.navbar > .container_header .navbar-brand {
+	width:60% !important;	
+}
+}
+/****** bootstrap for 5 column *******/
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+.normal.hover-fancy.ss-icon-left span{
+	padding-left:18px;
+	padding-right:15px;	
+}
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}

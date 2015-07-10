@@ -1,0 +1,120 @@
+/*** Dark Theme Style ***/
+
+.wrapper,
+.navbar,
+.dropdown-menu,
+.page-slider,
+.divider_text.left, /* ss shortcode */
+.center-help, /* ss shortcode */ 
+.timeline-date .timeline-title,
+#page {
+	background-color:#222533;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color:#FFF;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.cart-checkout .cart-link a,
+.cart-checkout .checkout-link a,
+.pie_progress_container,
+.delve-entry-title a,
+.delve-sidebar .widget_heading,
+.comment-author strong,
+.post_nxtprv_btn div.post_prv_btn a:hover, 
+.post_nxtprv_btn div.post_nxt_btn a:hover,
+div.wpcf7,
+.delve-icon-box .box-title,
+.side-navbar-menu a {
+	color:#FFF;
+}
+
+.delve-icon-box .box-title {
+	font-weight:normal;
+}
+
+.callout-body h3 {
+	color:#222533 !important;
+}
+
+.delve_heading, 
+.entry-content, 
+.comments-link {
+	padding:0;
+}
+
+.delve-sidebar ul,
+.delve-sidebar iframe {
+	background:#FFF;
+}
+
+.ourteam_info h4 {
+	color:#222533 !important;
+}
+
+.st-accordion .panel-title>a /* ss shortcode */ {
+	color:#222533;
+}
+
+/*** Blog ***/
+
+.delve_content article.post {
+	border:none;
+}
+
+.post_date {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+/*** shop ***/
+.quantity .qty {
+	background: #FFF;
+	border-radius: 0;
+}
+
+.woocommerce-message, 
+.woocommerce-success-message {
+	background: #a1b1bc;
+	color:#FFF;
+}
+
+.myaccount_user_container .username,
+.woocommerce-message .wc-forward,
+.alert-message h3,
+.myaccount_user_container .view-cart a {
+	color: #222533;
+}
+
+.shop_table tfoot tr,
+.shop_table tfoot tr th {
+	color:#FFF;
+}
+
+.product-details,
+.price del .amount {
+	color: #a1b1bc;
+}
+
+.woocommerce-tabs .panel {
+	background:transparent;
+}
+
+p.stars a:hover, p.stars a.active {
+	background: rgba(255, 255, 255, 0.075);
+}
+
+.edit-account-form label {
+	color:#FFF;
+	font-weight:normal;
+}
+
+@media only screen and (max-width : 767px) {
+.navbar-nav {
+	background-color:#222533;
+}
+
+}

@@ -1,0 +1,47 @@
+.delveGalleryContainer .delveGalleryItem {
+	padding:0 5px;
+	margin-bottom:25px;
+}
+
+.delveGalleryItem .ih-item.square {
+	width:100%;
+	height:auto;
+}
+.delveGalleryItem .ih-item.circle{
+	margin:0 auto;	
+}
+/*** Gallery effects 7/Square effect 4 ***/
+.delveGalleryItem .ih-item.square.effect4 .info {
+	height:auto;
+	bottom:auto;
+}
+
+.delveGalleryItem .ih-item.square.effect4 .info h3,
+.delveGalleryItem .ih-item.square.effect4 .info p {
+	margin:0;
+	padding:5px;
+}
+
+.delveGalleryItem .ih-item.square.effect4 a:hover .info {
+	width:100%;
+	height:auto;
+}
+
+/*** iHover General CSS ***/
+.delveGalleryItem .ih-item .info p {
+	color:#EEE !important;
+}
+
+/*** effect1 customization ***/
+.delveGalleryItem .ih-item.circle.effect1 .spinner {
+	border-right-color: #a1b1bc;
+	border-bottom-color: #a1b1bc;
+}
+
+/*** effect7 customization ***/
+.delveGalleryItem .ih-item.square.effect4.colored .info,
+.delveGalleryItem .ih-item.square.effect9.colored .info h3,
+.delveGalleryItem .ih-item.square.effect10.colored .info h3,
+.delveGalleryItem .ih-item.square.effect12.colored .info h3 {
+	background: rgba(0,0,0,0.2);
+}

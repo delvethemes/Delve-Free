@@ -1,0 +1,218 @@
+/* GENERAL STYLE
+------------------------------------*/
+#adminmenu li.current .toplevel_page_SupremeShortcodes .wp-menu-image img {
+	opacity: 1;
+}
+
+.supreme_wrap{
+	border: 1px solid #CDCDCD;
+	background: #FFF;
+	margin: 20px 20px 20px 0;
+	width: 870px;
+	background: #F8F8F8;
+	color: #515151;
+}
+
+#shortcodes_head {
+	display: block;
+	margin-bottom: 22px;
+	position: relative;
+	border-bottom: 1px dashed #DFE1E3;
+	background: #FFF;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f8f9f9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(100%,#F8F9F9));
+	background: -webkit-linear-gradient(top, #FFF 0%,#F8F9F9 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f8f9f9 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f8f9f9 100%);
+	background: linear-gradient(top, #ffffff 0%,#f8f9f9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f9f9',GradientType=0 );
+}
+#shortcodes_head h2{
+	color: #464646;
+	font-weight: bold;
+}
+#shortcodes_head h2::before{
+	content: "\f111";
+	margin-right: 10px;
+	margin-left: 20px;
+	font: 400 26px/1 dashicons!important;
+	vertical-align: bottom;
+	color: #464646;
+}
+
+/* Pre menu */
+#pre_menu{
+	margin: 0;
+	list-style: none;
+	text-align: right;
+	background: #DB4360;
+}
+#pre_menu li{
+
+	display: inline-block;
+	margin: 10px;
+}
+#pre_menu li::before{
+	font: 400 16px/1 dashicons!important;
+	speak: none;
+	color: #FFF;
+	padding: 0;
+	width: 20px;
+	margin-right: 8px;
+	vertical-align: bottom;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+#pre_menu li.website::before{content: "\f319";}
+#pre_menu li.docs::before{content: "\f118";}
+#pre_menu li.support::before{content: "\f338";}
+
+#pre_menu li:last-child {
+	margin-right: 21px;
+}
+
+#pre_menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	transition: .3s;
+}
+
+form#shortcodes-form{
+	margin-right: 20px;
+}
+
+input[type=radio].ss-radio{
+	margin-right: 10px;
+}
+.ss-radio-span{
+	margin-right: 20px;
+}
+
+
+/* TABS - MENU 
+------------------------------------*/
+#tabs-titles{
+    float: left;
+	min-width: 140px;
+	text-align: left;
+	display: block;
+	margin: 2px 0 0 0;
+	padding: 0;
+	position: relative;
+	border-top: 1px solid #CDCDCD;
+	border-right: 1px solid #CDCDCD;
+}
+#tabs-titles li{
+    min-width: 140px;
+	cursor: pointer;
+	list-style-type: none;
+	display: block;
+	text-align: left;
+	color: #515151;
+	text-shadow: 0px 1px 2px #FAFBFC;
+	margin: auto;
+	padding-bottom: 10px;
+	position: relative;
+	border-top: 1px solid #FFF;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+	transition: .2s;
+	text-shadow: #FFF 0 1px 0;
+	border-top: 1px solid #F8FAFA;
+	border-bottom: 1px solid #CCC;
+	color: #515151;
+	font-size: 13px;
+	background: #EEE;
+	height: 27px;
+	padding: 7px 0 0 10px;
+}
+#tabs-titles li.current{
+    color: #1D1D1D;
+	background: #FFF;
+}
+#tabs-titles li.current::after{
+	right: 0;
+	border: solid rgba(0, 0, 0, 0);
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 8px;
+	top: 50%;
+	margin-top: -8px;
+	border-right-color: #DB4360;
+}
+
+#tabs-contents{
+    margin-left: 170px;
+}
+#tabs-contents .content{
+	border: 1px solid #B0B9B9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #FFF;
+	padding: 10px;
+}
+#tabs-contents h4{
+	margin: -10px -10px 10px -10px;
+	padding: 12px 10px;
+	text-shadow: #FFF 0 1px 0;
+	border-top: 1px solid #F8FAFA;
+	border-bottom: 1px solid #CCC;
+	color: #515151;
+	font-size: 13px;
+	background: #EEE;
+}
+
+#tabs-contents li{
+    display:none;
+}
+#tabs-contents li:first-child{
+    display:block;
+}
+
+#tabs-contents .content label{
+	float: left;
+	margin: 3px 20px 0 0;
+	width: 180px;
+}
+
+#tabs-contents .content .option_description{
+	margin-left: 200px;
+}
+#tabs-contents .content > div {
+	padding: 14px 0;
+}
+
+#tabs-contents .content.ss-half {
+	width: 46%;
+	float: left;
+}
+
+#tabs-contents .content.ss-half.first {
+	margin-right: 10px;
+}
+.super_small {
+	width: 220px;
+}
+
+.img_center{
+    width: 24px;
+    height: 24px;
+    margin: 10px auto 0;
+    display: block;
+}
+
+
+/* ... 
+------------------------------------*/

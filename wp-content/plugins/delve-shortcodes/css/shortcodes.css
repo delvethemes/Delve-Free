@@ -1,0 +1,551 @@
+/*
+ * Delve Shortcode Style
+*/
+
+/****** Icon Box ******/
+.delve-icon-box {
+	display:table;
+	padding:10px;
+	margin:15px 0;
+	width:100%;
+	min-width:150px;
+}
+
+.delve-icon-box .delve_diamond {
+	text-align:center;
+	vertical-align:middle;
+	border-radius:4px;
+	height:51px;
+	width:51px;
+	position:relative;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg); 
+	position:relative;
+	overflow:hidden;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.delve-icon-box .left .delve_diamond {
+	display:table-cell;
+	float:left;
+}
+
+.delve-icon-box .top .delve_diamond {
+	display:block;
+	float:none;
+	margin:0 auto;
+}
+
+.delve-icon-box .left {
+	display:inline-block;
+}
+
+.delve-icon-box .delve_diamond i {
+	font-size:24px;
+	position: relative;
+	transform-origin: top left;
+	-webkit-transform-origin: top left;
+	transform: rotate(-45deg) translate(-21px, 0);
+	-webkit-transform: rotate(-45deg) translate(-21px, 0);
+	line-height:50.5px;
+	z-index: 1; 
+	pointer-events: none
+}
+
+.delve-icon-box .box-title {
+	color:#1a1c27;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.delve-icon-box .left .box-title {
+	float:left;
+	margin-left: 15px;
+	line-height:45px;
+}
+
+.delve-icon-box .top .box-title {
+	text-align:center;
+	margin-top:20px;
+}
+
+.delve-icon-box .box-content {
+	clear:both;
+	display:block;
+	margin-top:10px;
+}
+
+.style-left .box-content {
+	text-align:justify;
+}
+
+.style-top .box-content {
+	text-align:center;
+}
+
+/******* pie progress ******/
+.pie_progress_container {
+	display:inline-block;
+	padding:10px;
+	color:#33353e;
+	width:100%;
+}
+
+.pie_progress {
+	text-align: center;
+	position: relative;
+	margin:5px 0;
+	display:inline-block;
+	-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+}
+
+.pie_progress svg {
+	margin: 0 auto;
+}
+
+.pie_progress__content,
+.pie_progress__label,
+.pie_progress__icon {
+	width: 100%;
+	position: absolute;
+	top: 47%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+				transform: translateY(-50%);
+}
+
+.pie_inner {
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.pie_progress__number,
+.pie_icon {
+	font-size: 26px;
+	line-height:26px;
+	width: 100px;
+	margin: 0 auto;
+	padding: 37px 0;
+	border-radius: 50%;
+	margin-top: -2px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.pie_progress__number:hover {
+	color:#FFF;
+}
+
+.pie_progress__label {
+	margin-left:-5px;
+	margin-top: 28px;
+	font-size: 14px;
+}
+
+
+.pie_circle {
+	position:relative;
+	height:100%;
+	width:100%;
+	display:table;
+}
+
+.pie_circle_number {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.pie_progress_content {
+	text-align:center;
+}
+
+.pie_progress_content h3 {
+	margin:0;
+}
+/******* contact info *******/
+.delve-contact-info-container h3 {
+	margin-bottom:0;
+}
+
+.delve-contact-info-container h6 {
+	font-size:16px;	
+	margin:25px 0 5px;
+}
+
+/****** counter box *******/
+.delve_counter_box {
+	padding:20px 10px;
+	text-align:center;
+	display:inline-block;
+	width:100%;
+	clear:both;
+}
+
+.delve_num_counter {
+	font-size:36px;
+	line-height:45px;
+}
+
+.delve_counter_title {
+	font-size:16px;
+	line-height:18px;
+	padding-top:5px;
+}
+
+/******* Recent Posts *******/
+.recent-post_item_container {
+	margin-bottom:15px;
+	padding-left:7px !important;
+	padding-right:7px !important;
+}
+
+.delve_recent_post {
+	margin:0 !important;
+}
+
+.post_animation {
+	position: absolute;
+	bottom: 100%;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all -0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;	
+	transition: all 0.5s ease-in-out;
+	text-decoration: none;
+}
+
+.delve-entry-header:hover .post_animation {
+	bottom: 0;
+	display: block;
+}
+
+.post_anim_info_container {
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	vertical-align: middle;
+}
+
+.post_anim_info_container .post_anim_info {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #FFF;
+}
+
+.recent-post-content {
+	margin-bottom:20px;
+}
+
+.post_anim_info h5 {
+	color:#FFF;
+}
+
+.post_anim_info a {
+	display: inline;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.post_anim_info a i {
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	color: #FFF;
+	margin:0;
+	font-size: 16px;
+	border-radius: 50%;
+}
+
+/******* Slider ******/
+.delve-flexslider-basic,
+.delve-flexslider-thumbnail {
+	position: relative;
+	margin-bottom: 0px;
+	padding: 0;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.delve-flexslider-thumbnail .flex-control-thumbs li {
+	max-width:150px;
+}
+
+.delve-flexslider .flex-next i,
+.delve-flexslider .flex-prev i {
+
+}
+
+/******* Magazine Style *******/
+.magazin-style-container {
+	padding:0;
+}
+
+.delve-first-large {
+	padding-left:0 !important;
+}
+
+.magazine-style {
+	clear:both;
+	font-size:14px;
+	line-height:20px;
+	margin-bottom:25px;
+	display:inline-block;
+	width:100%;
+}
+
+.delve-magazine-thumbnail {
+	width:100px;
+	display:inline-block;
+	position:relative;
+	float:left;
+	margin-right:15px;
+}
+
+.delve-first-large:first-child .delve-magazine-thumbnail {
+	float:none;
+	width:100%;
+	margin:0;
+}
+
+.delve-first-large.top {
+	width:100%;
+	float:none;
+	padding:0;
+}
+
+.delve-magazine-thumbnail img {
+	width:100%;
+	height:auto;
+}
+
+.delve-magazine-info {
+	margin-top:-56px;
+	height:55px;
+	position:relative;
+	background:rgba(0,0,0,0.7);
+	padding:10px 15px;
+}
+
+.delve-magazine-title {
+	margin:0;
+	font-size:16px;
+	line-height:16px;
+}
+
+.delve-magazine-title a {
+	color:#2c3e50;
+}
+
+.delve-magazine-info a,
+.delve-magazine-info a:hover {
+	color:#FFF;
+}
+
+.delve-magazine-meta {
+	font-size:13px;
+	line-height:18px;
+	margin-bottom:7px;
+	margin-top: 2px;
+}
+
+.delve-magazine-content {
+	margin:0;
+	
+}
+
+/******* Skillbars ******/
+.delve-skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:27px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.2);
+	padding:0 20px;
+	height:27px;
+	line-height:27px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	letter-spacing:1px;
+}
+
+.skillbar-bar {
+	height:27px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	max-width:100%;
+	
+	transition: all 1.5s linear;
+	 -moz-transition: all 1.5s linear;
+	  -webkit-transition: all 1.5s linear;
+	   -o-transition: all 1.5s linear;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:27px;
+	line-height:27px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+/******* pricing table *******/
+.delve_pricing_container {
+	text-align:center;
+	position:relative;
+	border:5px solid;
+	border-color:#FFF;
+	transition: all .3s;
+	 -moz-transition: all .3s;
+	  -webkit-transition: all .3s;
+	   -o-transition: all .3s;
+}
+
+.delve_pricing_container:hover {
+	border-color:#34495e;
+}
+
+.delve_pricing_container:hover .pricing_title {
+	background:#2c3e50;
+}
+
+.delve_pricing_container:hover .item_price {
+	color:#FFF;
+}
+
+.pf_image {
+	position:absolute;
+	top:-4px;
+	right:-4px;
+}
+
+.pricing_title {
+	height:60px;
+}
+
+.pricing_title h2 {
+	color:#FFF;
+	line-height:60px;
+	margin:0;
+	letter-spacing: 2.5px;
+	font-size:22px;
+	font-weight:600;
+}
+
+.item_price {
+	height:45px;
+	background:#ecf0f1;
+	color:#4e4e4e;
+	text-align:center;
+	line-height:45px;
+	font-weight:bold;
+}
+
+.item_price sup {
+	font-size:15px;
+	padding:3px;
+}
+
+.item_price span {
+	font-size:23px;
+}
+
+.item_price sub {
+	font-size:15px;
+}
+
+.delve_pricing ul {
+	list-style-type:none;
+	padding:0;
+}
+
+.delve_pricing ul li {
+	line-height:40px;
+	border-bottom:1px solid #e9edee;
+	color:#686d80;
+}
+
+.delve_pricing ul li:nth-of-type(2n) {
+	background:#eaebec;
+}
+
+.delve-pbtn {
+	margin-top:10px;
+	width:80%;
+	margin-bottom:15px !important;
+	font-size:16px !important;
+}
+
+@media only screen and ( max-width : 1024px ) {
+.pie_progress_container {
+	width:auto;
+}
+}
+
+@media only screen and ( max-width : 767px ) {
+.pie_progress_container {
+	width:100%;
+}
+
+.delve-magazine-info {
+	margin-top:0;
+}
+}

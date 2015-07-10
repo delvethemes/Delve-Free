@@ -1,0 +1,55 @@
+/*
+Theme Name: Delve  
+Theme URI: http://delvethemes.com
+Author: Delvethemes
+Author URI: http://delvethemes.com/delvethemes 
+Description: Delve theme is entirely designed and developed from user friendly perspective. From the root level, our development team tried their best to give sufficient customization space with easy operating options which help users entirely new experience designing new layout of their choice. User can change site's logo image and also link a website URL as well. User is also free to upload totally fresh favicon icon. At sliders section user will get multiple slider options with customize choice to put different sliders at home page and at other pages. While 11 header options give users vast range of selection to choose from, on the other side styling options bridging the gap to represent the site's content from default formatting to customize view. General settings helps to display the site's layout in full/box width and in addition to this, also have plugins like ( Supreme Shortcodes Free, Our Team, Portfolio). Custom styling helps in customization of header/footer script and CSS Styles. Social Options section to view/hide social icons on site. Entire footer section has separate footer option part from where user is able to add/remove custom columns in widget area, and also able to change footer background. In addition to this, footer option also does comprises "tracking code" field for developers. Backup option section is again one of the core parts without which, we couldn't confirmed our theme structure "Completed". Backup option section not only just helps in taking a backup of present state but also helps to import & implement backup from other sources too.
+Version: 1.0.5
+Tags: light, dark, blue, purple, gray, pink, responsive-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, theme-options, threaded-comments
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: delve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+@import url('css/bootstrap.css');
+@import url('css/font-awesome.min.css');
+@import url('css/common.css');
+@import url('css/media.css'); 
+
+/*** Tab Widget ***/
+.delve-tabs{height:auto;list-style-type:none;margin-top:25px}.tabs-widget ul{max-width:355px}.delve-tabs li{border:none!important;float:left;width:33.25%;text-align:center;height:40px;outline:0}.delve-tabs li a{border-left:none;border-top:3px solid transparent;text-decoration:none;display:block;width:100%;height:100%;color:#2c3e50!important;font-size:.84em;background:#eff4f7;outline:0}.delve-tabs li.ui-tabs-active a{background:#FFF}.delve-tabs li a i{font-size:1.7em;color:#2c3e50}.delve_tabs .tabs-container{clear:both}.delve_tabs .post-holder{font-size:13px;line-height:22px}.tab-holder .tab_content .news-list li{border-bottom:1px solid #e6ebee;padding:20px 15px;overflow:hidden}.delve_tabs .post-holder a{color:#2c3e50;overflow:hidden}.delve_tabs .post-holder p{margin:0}.tab-holder .tab_content .image{float:left;margin-right:13px;height:50px;width:52px}.tab-holder .tab_content .image img{max-height:100%;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}.tab-holder .tab_content .image img:hover{opacity:.7}.meta{padding:0;overflow:hidden;list-style:none;}
+
+/*** basic styles ***/
+img{max-width:100%;height:auto;max-height:100%}.alignleft{float:left}.alignright{float:right}.aligncenter{display:block;margin-left:auto;margin-right:auto}figure.wp-caption.alignleft,img.alignleft{margin:5px 20px 5px 0}div.wp-caption{max-width:100%}.wp-caption.alignleft{margin:5px 10px 5px 0}figure.wp-caption.alignright,img.alignright{margin:5px 0 5px 20px}.wp-caption.alignright{margin:5px 0 5px 10px}img.aligncenter{margin:5px auto}img.alignnone{margin:5px 0}.entry-caption,.gallery-caption,.wp-caption .wp-caption-text{color:#220e10;font-size:18px;font-style:italic;font-weight:300;margin:0 0 24px}div.wp-caption.alignright img[class*=wp-image-]{float:right}div.wp-caption.alignright .wp-caption-text{padding-left:10px}.rsswidget img,img.wp-smiley{border:0;border-radius:0;box-shadow:none;margin-bottom:0;margin-top:0;padding:0}.wp-caption.alignleft+ol,.wp-caption.alignleft+ul{list-style-position:inside}iframe{max-width:100%;}a:hover{text-decoration:none}.wpcf7 input,.uneditable-input,input[type],textarea{border:1px solid;border-color:#d6dde2;height:auto;margin-bottom:10px;padding:4px 6px;-webkit-transition:all .4s ease;-moz-transition:all .4s ease;-o-transition:all .4s ease;transition:all .4s ease}input[type]{height:35px;line-height:18px;}input[type=checkbox],input[type=radio]{height:auto}.bypostauthor{}blockquote{border-color:#a1b1bc;font-style:italic;color:#222533}input[type=submit],input[type=reset]{
+border: 1px solid;
+  border-color: #FFF;
+  background: #a1b1bc;
+  color: #FFF;
+  padding: 0 10px;
+  margin: 0;	
+}
+
+.f-c-container{ padding:15px;text-align:center;color:#a1b1bc; }
+.f-c-container .delve_f-title{ margin-bottom:15px;margin-top:10px;font-size:16px}
+.f-c-container .delve_f-content{ padding-bottom:20px; border-bottom:1px solid #ddd;margin-bottom:30px; }
+.f-c-container a.theme-color{ border:1px solid #ddd;padding:0;display:inline-block;margin-right:5px; }
+
+.delve_bw a{ border:1px solid #ddd;font-size:13px;width:100px;height:34px;display:inline-block;text-decoration:none;
+text-align: center;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;color:#a1b1bc;
+margin-left:7px; padding:5px;}
+.layouts-btn.active, .layouts-btn:hover{ background:#ddd;text-decoration:none;color:#222533; }
+
+a.bg-pattern{ padding:0;display:inline-block;margin-right:5px;margin-bottom:5px;border:1px solid #ddd; }
+
+.clear-style-btn{ font-size:14px;color:#FFF; }
+.clear-style-btn:hover, .clear-style-btn:focus{ color:#FFF; }
+
+@media only screen and (max-width : 767px) {
+	#wpbs_slider {
+		display:none;
+	}
+}

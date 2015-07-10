@@ -1,0 +1,91 @@
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+svg.line-drawing{
+	pointer-events: none;
+}
+
+.main figcaption {
+	margin: 0 auto 0 auto;
+	max-width: 40em;
+	width: 95%;
+	text-align: center;
+}
+
+.main figure:first-child figcaption {
+	margin-top: 8em;
+}
+
+.main figcaption h2 {
+	font-weight: 300;
+	font-size: 3em;
+	margin-bottom: 0.2em;
+}
+
+.main figcaption p {
+	font-size: 1.3em;
+}
+
+.drawings {
+	position: relative;
+	height: 600px;
+}
+
+.illustration {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-height: 100%;
+	max-width: 100%;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.show {
+	opacity: 1;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.line-drawing,
+.illustration {
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.line-drawing path {
+	fill: none;
+	stroke: white;
+	stroke-width: 3;
+}
+
+path.line-round {
+	stroke-linecap: round;
+}
+
+path.stroke-medium {
+	stroke-width: 2;
+}
+
+path.stroke-thin {
+	stroke-width: 1;
+}
+
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (max-width : 480px){
+	.drawings {
+		position: relative;
+		height: 288px;
+	}
+}

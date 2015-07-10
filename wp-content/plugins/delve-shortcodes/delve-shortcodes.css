@@ -1,0 +1,14 @@
+/*
+  Plugin Name: Delve Shortcodes
+  Description: Delve Shortcodes
+  Version: 1.0
+  Author: Delvethemes
+  Author URI: http://themeforest.net/user/delvethemes
+  License: GNU General Public License
+*/
+
+@import url('css/shortcodes.css');
+@import url('css/gallery.css');
+@import url('css/portfolio.css');
+@import url('css/ourteam.css');
+@import url('css/testimonials.css');
