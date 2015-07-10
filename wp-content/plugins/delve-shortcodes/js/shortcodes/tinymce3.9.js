@@ -13,7 +13,7 @@
         	onclick: function() {
         	},
 			menu : [
-				{ text: "Shortcodes", classes: "mceMenuItemTitle", disabled: true },
+				//{ text: "Shortcodes", classes: "mceMenuItemTitle", disabled: true },
 					// columns
 					{text:'Icon Box',onclick: function(){setcontentfun(editor,"delve_icon_box");}},
 					{text:'Pie Progress',onclick: function(){setcontentfun(editor,"delve_pie_progress");}},

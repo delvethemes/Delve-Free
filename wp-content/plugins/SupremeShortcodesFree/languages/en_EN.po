@@ -1,0 +1,1450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SupremeShortcodes\n"
+"POT-Creation-Date: 2014-01-20 21:40+0100\n"
+"PO-Revision-Date: 2014-01-20 21:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: SupremeFactory\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../ajaxPlugin.php:114
+msgid "Cancel"
+msgstr ""
+
+#: ../ajaxPlugin.php:117 ../ajaxPlugin.php:1647
+msgid "Insert"
+msgstr ""
+
+#: ../ajaxPlugin.php:121 ../ajaxPlugin.php:1643 ../ajaxPlugin.php:1651
+msgid "Preview"
+msgstr ""
+
+#: ../ajaxPlugin.php:179
+msgid "Create table shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:182 ../ajaxPlugin.php:874
+msgid "Columns"
+msgstr ""
+
+#: ../ajaxPlugin.php:186
+msgid "Rows"
+msgstr ""
+
+#: ../ajaxPlugin.php:194
+msgid "Insert read more button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:197 ../ajaxPlugin.php:217 ../ajaxPlugin.php:713
+#: ../ajaxPlugin.php:1090 ../ajaxPlugin.php:1116 ../ajaxPlugin.php:1153
+msgid "Link"
+msgstr ""
+
+#: ../ajaxPlugin.php:199
+msgid "URL to page"
+msgstr ""
+
+#: ../ajaxPlugin.php:203
+msgid "Insert button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:206 ../ajaxPlugin.php:275 ../ajaxPlugin.php:295
+#: ../ajaxPlugin.php:320 ../ajaxPlugin.php:350 ../ajaxPlugin.php:628
+#: ../ajaxPlugin.php:639 ../ajaxPlugin.php:677
+msgid "Text"
+msgstr ""
+
+#: ../ajaxPlugin.php:208
+msgid "The button text"
+msgstr ""
+
+#: ../ajaxPlugin.php:211 ../ajaxPlugin.php:596
+msgid "Text Color"
+msgstr ""
+
+#: ../ajaxPlugin.php:214 ../ajaxPlugin.php:599
+msgid "Color of text (Optional, default: #ffffff)"
+msgstr ""
+
+#: ../ajaxPlugin.php:219
+msgid "Button link (Optional, e.g. http://www.supremefactory.net, default: #)"
+msgstr ""
+
+#: ../ajaxPlugin.php:222
+msgid "Target"
+msgstr ""
+
+#: ../ajaxPlugin.php:224
+msgid "_self"
+msgstr ""
+
+#: ../ajaxPlugin.php:225
+msgid "_blank"
+msgstr ""
+
+#: ../ajaxPlugin.php:226
+msgid "_parent"
+msgstr ""
+
+#: ../ajaxPlugin.php:227
+msgid "_top"
+msgstr ""
+
+#: ../ajaxPlugin.php:232 ../ajaxPlugin.php:602
+msgid "Background Color"
+msgstr ""
+
+#: ../ajaxPlugin.php:235 ../ajaxPlugin.php:605
+msgid "Background color (Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:238 ../ajaxPlugin.php:608 ../ajaxPlugin.php:815
+#: ../ajaxPlugin.php:1369
+msgid "Size"
+msgstr ""
+
+#: ../ajaxPlugin.php:240 ../ajaxPlugin.php:610 ../ajaxPlugin.php:817
+msgid "Small"
+msgstr ""
+
+#: ../ajaxPlugin.php:241 ../ajaxPlugin.php:611
+msgid "Normal"
+msgstr ""
+
+#: ../ajaxPlugin.php:242 ../ajaxPlugin.php:612
+msgid "Large"
+msgstr ""
+
+#: ../ajaxPlugin.php:250
+msgid "Select List icon"
+msgstr ""
+
+#: ../ajaxPlugin.php:253
+msgid "Icons"
+msgstr ""
+
+#: ../ajaxPlugin.php:255 ../ajaxPlugin.php:284
+msgid "Success"
+msgstr ""
+
+#: ../ajaxPlugin.php:256 ../ajaxPlugin.php:282
+msgid "Info"
+msgstr ""
+
+#: ../ajaxPlugin.php:257
+msgid "Green plus"
+msgstr ""
+
+#: ../ajaxPlugin.php:258
+msgid "Red minus"
+msgstr ""
+
+#: ../ajaxPlugin.php:259 ../ajaxPlugin.php:283
+msgid "Warning"
+msgstr ""
+
+#: ../ajaxPlugin.php:260
+msgid "Star"
+msgstr ""
+
+#: ../ajaxPlugin.php:267
+msgid "Insert box shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:270 ../ajaxPlugin.php:315 ../ajaxPlugin.php:374
+#: ../ajaxPlugin.php:708 ../ajaxPlugin.php:1059 ../ajaxPlugin.php:1085
+#: ../ajaxPlugin.php:1095 ../ajaxPlugin.php:1111 ../ajaxPlugin.php:1148
+#: ../ajaxPlugin.php:1185 ../ajaxPlugin.php:1253 ../ajaxPlugin.php:1393
+#: ../ajaxPlugin.php:1467 ../ajaxPlugin.php:1482 ../ajaxPlugin.php:1508
+#: ../ajaxPlugin.php:1535 ../ajaxPlugin.php:1563 ../ajaxPlugin.php:1605
+msgid "Title"
+msgstr ""
+
+#: ../ajaxPlugin.php:280 ../ajaxPlugin.php:1200 ../ajaxPlugin.php:1412
+msgid "Type"
+msgstr ""
+
+#: ../ajaxPlugin.php:285
+msgid "Alert"
+msgstr ""
+
+#: ../ajaxPlugin.php:292
+msgid "Insert divider with text shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:300 ../ajaxPlugin.php:341 ../ajaxPlugin.php:365
+msgid "Position"
+msgstr ""
+
+#: ../ajaxPlugin.php:302 ../ajaxPlugin.php:346 ../ajaxPlugin.php:370
+msgid "Left"
+msgstr ""
+
+#: ../ajaxPlugin.php:303
+msgid "Center"
+msgstr ""
+
+#: ../ajaxPlugin.php:304 ../ajaxPlugin.php:344 ../ajaxPlugin.php:368
+msgid "Right"
+msgstr ""
+
+#: ../ajaxPlugin.php:312
+msgid "Insert callout shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:325
+msgid "Button text"
+msgstr ""
+
+#: ../ajaxPlugin.php:330
+msgid "Button link"
+msgstr ""
+
+#: ../ajaxPlugin.php:338
+msgid "Insert tooltip shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:343 ../ajaxPlugin.php:367
+msgid "Top"
+msgstr ""
+
+#: ../ajaxPlugin.php:345 ../ajaxPlugin.php:369
+msgid "Bottom"
+msgstr ""
+
+#: ../ajaxPlugin.php:355
+msgid "Tooltip text"
+msgstr ""
+
+#: ../ajaxPlugin.php:362
+msgid "Insert popover shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:379
+msgid "Popover text"
+msgstr ""
+
+#: ../ajaxPlugin.php:386
+msgid "Insert modal shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:389
+msgid "Modal button title"
+msgstr ""
+
+#: ../ajaxPlugin.php:391
+msgid "Example: Launch this modal"
+msgstr ""
+
+#: ../ajaxPlugin.php:394
+msgid "Modal title"
+msgstr ""
+
+#: ../ajaxPlugin.php:399
+msgid "Modal content"
+msgstr ""
+
+#: ../ajaxPlugin.php:401
+msgid "HTML tags allowed!"
+msgstr ""
+
+#: ../ajaxPlugin.php:404
+msgid "Primary button text"
+msgstr ""
+
+#: ../ajaxPlugin.php:406
+msgid "Optional."
+msgstr ""
+
+#: ../ajaxPlugin.php:409
+msgid "Primary button Link"
+msgstr ""
+
+#: ../ajaxPlugin.php:411
+msgid "Button link (Optional, e.g. http://www.supremefactory.net)"
+msgstr ""
+
+#: ../ajaxPlugin.php:434
+msgid "Create tabbed content shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:437
+msgid "Number of Tabs"
+msgstr ""
+
+#: ../ajaxPlugin.php:462
+msgid "Create toggle shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:465
+msgid "Number of Panels"
+msgstr ""
+
+#: ../ajaxPlugin.php:473
+msgid "Create Progress Bar shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:476 ../ajaxPlugin.php:745 ../ajaxPlugin.php:907
+#: ../ajaxPlugin.php:962 ../ajaxPlugin.php:990 ../ajaxPlugin.php:1189
+#: ../ajaxPlugin.php:1284 ../ajaxPlugin.php:1402
+msgid "Width"
+msgstr ""
+
+#: ../ajaxPlugin.php:478
+msgid "Example: 80%"
+msgstr ""
+
+#: ../ajaxPlugin.php:481 ../ajaxPlugin.php:654 ../ajaxPlugin.php:698
+#: ../ajaxPlugin.php:728 ../ajaxPlugin.php:791 ../ajaxPlugin.php:806
+#: ../ajaxPlugin.php:830 ../ajaxPlugin.php:844 ../ajaxPlugin.php:885
+msgid "Style"
+msgstr ""
+
+#: ../ajaxPlugin.php:483
+msgid "Blue"
+msgstr ""
+
+#: ../ajaxPlugin.php:484
+msgid "Green"
+msgstr ""
+
+#: ../ajaxPlugin.php:485
+msgid "Yellow"
+msgstr ""
+
+#: ../ajaxPlugin.php:486
+msgid "Red"
+msgstr ""
+
+#: ../ajaxPlugin.php:491 ../ajaxPlugin.php:493
+msgid "Striped"
+msgstr ""
+
+#: ../ajaxPlugin.php:494
+msgid "No Stripes"
+msgstr ""
+
+#: ../ajaxPlugin.php:499
+msgid "Active"
+msgstr ""
+
+#: ../ajaxPlugin.php:501
+msgid "Yes"
+msgstr ""
+
+#: ../ajaxPlugin.php:502
+msgid "No"
+msgstr ""
+
+#: ../ajaxPlugin.php:510
+msgid "Insert related posts shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:513
+msgid "Number of related posts to show"
+msgstr ""
+
+#: ../ajaxPlugin.php:515
+msgid "Number of posts to show (default: 5)"
+msgstr ""
+
+#: ../ajaxPlugin.php:520
+msgid "Insert Social icon shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:523
+msgid "Choose"
+msgstr ""
+
+#: ../ajaxPlugin.php:525
+msgid "Facebook"
+msgstr ""
+
+#: ../ajaxPlugin.php:526
+msgid "Twitter"
+msgstr ""
+
+#: ../ajaxPlugin.php:527
+msgid "Google+"
+msgstr ""
+
+#: ../ajaxPlugin.php:528 ../ajaxPlugin.php:1204
+msgid "YouTube"
+msgstr ""
+
+#: ../ajaxPlugin.php:529
+msgid "Pinterest"
+msgstr ""
+
+#: ../ajaxPlugin.php:530
+msgid "LinkedIn"
+msgstr ""
+
+#: ../ajaxPlugin.php:531
+msgid "Blogger"
+msgstr ""
+
+#: ../ajaxPlugin.php:532
+msgid "Flickr"
+msgstr ""
+
+#: ../ajaxPlugin.php:533
+msgid "LastFM"
+msgstr ""
+
+#: ../ajaxPlugin.php:534
+msgid "Myspace"
+msgstr ""
+
+#: ../ajaxPlugin.php:535
+msgid "Reddit"
+msgstr ""
+
+#: ../ajaxPlugin.php:536 ../ajaxPlugin.php:1205
+msgid "Vimeo"
+msgstr ""
+
+#: ../ajaxPlugin.php:537
+msgid "Instagram"
+msgstr ""
+
+#: ../ajaxPlugin.php:538
+msgid "Dribble"
+msgstr ""
+
+#: ../ajaxPlugin.php:539
+msgid "RSS"
+msgstr ""
+
+#: ../ajaxPlugin.php:540
+msgid "Dropbox"
+msgstr ""
+
+#: ../ajaxPlugin.php:541
+msgid "Yahoo"
+msgstr ""
+
+#: ../ajaxPlugin.php:542
+msgid "Picasa"
+msgstr ""
+
+#: ../ajaxPlugin.php:543
+msgid "Behance"
+msgstr ""
+
+#: ../ajaxPlugin.php:544
+msgid "Skype"
+msgstr ""
+
+#: ../ajaxPlugin.php:545
+msgid "Soundcloud"
+msgstr ""
+
+#: ../ajaxPlugin.php:546
+msgid "Groove Shark"
+msgstr ""
+
+#: ../ajaxPlugin.php:547
+msgid "Digg"
+msgstr ""
+
+#: ../ajaxPlugin.php:548
+msgid "Tumblr"
+msgstr ""
+
+#: ../ajaxPlugin.php:549
+msgid "Apple Store"
+msgstr ""
+
+#: ../ajaxPlugin.php:550
+msgid "Deviant Art"
+msgstr ""
+
+#: ../ajaxPlugin.php:551
+msgid "Stumble Upon"
+msgstr ""
+
+#: ../ajaxPlugin.php:552
+msgid "WordPress"
+msgstr ""
+
+#: ../ajaxPlugin.php:553
+msgid "Wikipedia"
+msgstr ""
+
+#: ../ajaxPlugin.php:554
+msgid "Github"
+msgstr ""
+
+#: ../ajaxPlugin.php:555
+msgid "Android"
+msgstr ""
+
+#: ../ajaxPlugin.php:556
+msgid "Mixcloud"
+msgstr ""
+
+#: ../ajaxPlugin.php:561 ../ajaxPlugin.php:1267 ../ajaxPlugin.php:1292
+msgid "URL"
+msgstr ""
+
+#: ../ajaxPlugin.php:563
+msgid "Url)"
+msgstr ""
+
+#: ../ajaxPlugin.php:568
+msgid "Insert shorteren url shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:571 ../ajaxPlugin.php:1087 ../ajaxPlugin.php:1113
+#: ../ajaxPlugin.php:1129 ../ajaxPlugin.php:1150
+msgid "Link title"
+msgstr ""
+
+#: ../ajaxPlugin.php:576
+msgid "Full url"
+msgstr ""
+
+#: ../ajaxPlugin.php:583
+msgid "Insert login/out button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:586
+msgid "Log in text"
+msgstr ""
+
+#: ../ajaxPlugin.php:588
+msgid "Link title when visitor is not logged in"
+msgstr ""
+
+#: ../ajaxPlugin.php:591
+msgid "Log out text"
+msgstr ""
+
+#: ../ajaxPlugin.php:593
+msgid "Link title when visitor is logged in"
+msgstr ""
+
+#: ../ajaxPlugin.php:619
+msgid "Insert quoted text shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:622
+msgid "Author"
+msgstr ""
+
+#: ../ajaxPlugin.php:636
+msgid "Insert abbreviation shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:641
+msgid "The full, unabbreviated, text"
+msgstr ""
+
+#: ../ajaxPlugin.php:644
+msgid "Abbreviation"
+msgstr ""
+
+#: ../ajaxPlugin.php:646
+msgid "The abbreviated text"
+msgstr ""
+
+#: ../ajaxPlugin.php:651
+msgid "Insert twitter button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:656
+msgid "vertical (default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:657
+msgid "horizontal"
+msgstr ""
+
+#: ../ajaxPlugin.php:662 ../ajaxPlugin.php:723 ../ajaxPlugin.php:775
+#: ../ajaxPlugin.php:786 ../ajaxPlugin.php:1000
+msgid "Url"
+msgstr ""
+
+#: ../ajaxPlugin.php:664
+msgid "Specify URL directly. (Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:667 ../ajaxPlugin.php:1219 ../ajaxPlugin.php:1257
+msgid "Source"
+msgstr ""
+
+#: ../ajaxPlugin.php:669
+msgid "Username to mention in tweet. (Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:672
+msgid "Related"
+msgstr ""
+
+#: ../ajaxPlugin.php:674
+msgid "Related account. (Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:679
+msgid "Tweet text (Optional, default: title of page)"
+msgstr ""
+
+#: ../ajaxPlugin.php:682
+msgid "Lang"
+msgstr ""
+
+#: ../ajaxPlugin.php:684
+msgid "english (default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:685
+msgid "french"
+msgstr ""
+
+#: ../ajaxPlugin.php:686
+msgid "deutch"
+msgstr ""
+
+#: ../ajaxPlugin.php:687
+msgid "spain"
+msgstr ""
+
+#: ../ajaxPlugin.php:688
+msgid "japanise"
+msgstr ""
+
+#: ../ajaxPlugin.php:695
+msgid "Insert digg button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:700
+msgid "medium (default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:701
+msgid "large"
+msgstr ""
+
+#: ../ajaxPlugin.php:702
+msgid "compact"
+msgstr ""
+
+#: ../ajaxPlugin.php:703
+msgid "icon"
+msgstr ""
+
+#: ../ajaxPlugin.php:710
+msgid "Specify title directly (Optional, must add link also)"
+msgstr ""
+
+#: ../ajaxPlugin.php:715
+msgid "Specify link directly. (Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:720
+msgid "Insert facebook like button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:725
+msgid ""
+"Optionally place the URL you want viewers to \"Like\" here.<br />Defaults to "
+"the page/post URL."
+msgstr ""
+
+#: ../ajaxPlugin.php:730
+msgid "standard (Default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:731
+msgid "button_count"
+msgstr ""
+
+#: ../ajaxPlugin.php:732
+msgid "box_count"
+msgstr ""
+
+#: ../ajaxPlugin.php:737
+msgid "Show faces"
+msgstr ""
+
+#: ../ajaxPlugin.php:739
+msgid "false (Default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:740
+msgid "true"
+msgstr ""
+
+#: ../ajaxPlugin.php:742
+msgid "Show the faces of Facebook users who \"Like\" your URL"
+msgstr ""
+
+#: ../ajaxPlugin.php:747
+msgid "Set the width of this button"
+msgstr ""
+
+#: ../ajaxPlugin.php:750
+msgid "Verb to display"
+msgstr ""
+
+#: ../ajaxPlugin.php:752
+msgid "like (Default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:753
+msgid "recommend"
+msgstr ""
+
+#: ../ajaxPlugin.php:755
+msgid "The verb to display with this button"
+msgstr ""
+
+#: ../ajaxPlugin.php:758
+msgid "Font"
+msgstr ""
+
+#: ../ajaxPlugin.php:760
+msgid "arial (Default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:761
+msgid "lucida grande"
+msgstr ""
+
+#: ../ajaxPlugin.php:762
+msgid "segoe ui"
+msgstr ""
+
+#: ../ajaxPlugin.php:763
+msgid "tahoma"
+msgstr ""
+
+#: ../ajaxPlugin.php:764
+msgid "trebuchet ms"
+msgstr ""
+
+#: ../ajaxPlugin.php:765
+msgid "verdana"
+msgstr ""
+
+#: ../ajaxPlugin.php:767
+msgid "The font to use when displaying this button"
+msgstr ""
+
+#: ../ajaxPlugin.php:772
+msgid "Insert facebook share button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:777 ../ajaxPlugin.php:788
+msgid ""
+"Optionally place the URL you want viewers to \"Like\" here.<br />Defaults to "
+"the page/post URL"
+msgstr ""
+
+#: ../ajaxPlugin.php:782
+msgid "Insert linked in share button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:793
+msgid "no counter (Default)"
+msgstr ""
+
+#: ../ajaxPlugin.php:794 ../shortcodes.php:1779
+msgid "top"
+msgstr ""
+
+#: ../ajaxPlugin.php:795
+msgid "right"
+msgstr ""
+
+#: ../ajaxPlugin.php:803
+msgid "Insert google plus button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:808
+msgid "Inline"
+msgstr ""
+
+#: ../ajaxPlugin.php:809
+msgid "Bubble"
+msgstr ""
+
+#: ../ajaxPlugin.php:810 ../ajaxPlugin.php:834
+msgid "None"
+msgstr ""
+
+#: ../ajaxPlugin.php:818
+msgid "Medium"
+msgstr ""
+
+#: ../ajaxPlugin.php:819 ../ajaxPlugin.php:847
+msgid "Standard"
+msgstr ""
+
+#: ../ajaxPlugin.php:820
+msgid "Tall"
+msgstr ""
+
+#: ../ajaxPlugin.php:827
+msgid "Insert pinterest button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:832
+msgid "Above"
+msgstr ""
+
+#: ../ajaxPlugin.php:833
+msgid "Beside"
+msgstr ""
+
+#: ../ajaxPlugin.php:841
+msgid "Insert tumbler button shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:846
+msgid "Plus"
+msgstr ""
+
+#: ../ajaxPlugin.php:848
+msgid "Icon + Text"
+msgstr ""
+
+#: ../ajaxPlugin.php:849
+msgid "Icon"
+msgstr ""
+
+#: ../ajaxPlugin.php:870
+msgid "Pricing table shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:882
+msgid "How manu columns your pricing table should have"
+msgstr ""
+
+#: ../ajaxPlugin.php:895
+msgid "Which column should be highlighted"
+msgstr ""
+
+#: ../ajaxPlugin.php:903
+msgid "Google Map shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:909 ../ajaxPlugin.php:914 ../ajaxPlugin.php:992
+#: ../ajaxPlugin.php:997
+msgid "(Optional)"
+msgstr ""
+
+#: ../ajaxPlugin.php:912 ../ajaxPlugin.php:967 ../ajaxPlugin.php:995
+#: ../ajaxPlugin.php:1194 ../ajaxPlugin.php:1288 ../ajaxPlugin.php:1407
+msgid "Height"
+msgstr ""
+
+#: ../ajaxPlugin.php:917
+msgid "Latitude"
+msgstr ""
+
+#: ../ajaxPlugin.php:919 ../ajaxPlugin.php:924 ../ajaxPlugin.php:974
+msgid "Exapmle"
+msgstr ""
+
+#: ../ajaxPlugin.php:922
+msgid "Longitute"
+msgstr ""
+
+#: ../ajaxPlugin.php:928
+msgid ""
+"To convert an address into latitude & longitude please use this converter: "
+"<br><a href=\"http://www.latlong.net/convert-address-to-lat-long.html\" "
+"target=\"_blank\">Convert address to latitude and longotude.</a>"
+msgstr ""
+
+#: ../ajaxPlugin.php:931
+msgid "Zoom value"
+msgstr ""
+
+#: ../ajaxPlugin.php:933
+msgid "Zoom value from 1 to 19"
+msgstr ""
+
+#: ../ajaxPlugin.php:936
+msgid "Content for the marker"
+msgstr ""
+
+#: ../ajaxPlugin.php:940
+msgid "Map type"
+msgstr ""
+
+#: ../ajaxPlugin.php:942
+msgid "Road map"
+msgstr ""
+
+#: ../ajaxPlugin.php:943
+msgid "Satellite"
+msgstr ""
+
+#: ../ajaxPlugin.php:944
+msgid "Hybrid"
+msgstr ""
+
+#: ../ajaxPlugin.php:945
+msgid "Terrain"
+msgstr ""
+
+#: ../ajaxPlugin.php:949 ../ajaxPlugin.php:1272 ../ajaxPlugin.php:1381
+msgid "Color"
+msgstr ""
+
+#: ../ajaxPlugin.php:952
+msgid "NOTE: Applies only for Road Map."
+msgstr ""
+
+#: ../ajaxPlugin.php:958
+msgid "Google Trends shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:964 ../ajaxPlugin.php:969 ../ajaxPlugin.php:979
+#: ../ajaxPlugin.php:1554
+msgid "Default"
+msgstr ""
+
+#: ../ajaxPlugin.php:972
+msgid "Query"
+msgstr ""
+
+#: ../ajaxPlugin.php:977
+msgid "Geo"
+msgstr ""
+
+#: ../ajaxPlugin.php:986
+msgid "Google Docs shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1012
+msgid "Page children shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1016
+msgid "Parent page"
+msgstr ""
+
+#: ../ajaxPlugin.php:1033 ../ajaxPlugin.php:1045
+msgid "Contact form shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1037 ../ajaxPlugin.php:1048
+msgid "Email"
+msgstr ""
+
+#: ../ajaxPlugin.php:1039 ../ajaxPlugin.php:1050
+msgid "Email where submitted form will go to"
+msgstr ""
+
+#: ../ajaxPlugin.php:1056
+msgid "Fancybox single image and image gallery shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1061
+msgid "link title"
+msgstr ""
+
+#: ../ajaxPlugin.php:1064
+msgid "Image URL:"
+msgstr ""
+
+#: ../ajaxPlugin.php:1066
+msgid "Select Image"
+msgstr ""
+
+#: ../ajaxPlugin.php:1069
+msgid "Thumbnail URL:"
+msgstr ""
+
+#: ../ajaxPlugin.php:1071
+msgid "Select Thumbnail"
+msgstr ""
+
+#: ../ajaxPlugin.php:1074
+msgid "Group"
+msgstr ""
+
+#: ../ajaxPlugin.php:1076
+msgid "Group fancybox as gallery"
+msgstr ""
+
+#: ../ajaxPlugin.php:1082
+msgid "Fancybox Inline content shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1092
+msgid ""
+"You can type here what ever you want, since it <br />serves as a hook and it "
+"wont be visible on website"
+msgstr ""
+
+#: ../ajaxPlugin.php:1097
+msgid "Content title"
+msgstr ""
+
+#: ../ajaxPlugin.php:1100
+msgid "Content"
+msgstr ""
+
+#: ../ajaxPlugin.php:1102
+msgid "Example: Write some text"
+msgstr ""
+
+#: ../ajaxPlugin.php:1108
+msgid "Fancybox Iframe shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1118 ../ajaxPlugin.php:1155 ../ajaxPlugin.php:1399
+#: ../ajaxPlugin.php:1404 ../ajaxPlugin.php:1409 ../ajaxPlugin.php:1438
+#: ../ajaxPlugin.php:1443 ../ajaxPlugin.php:1448 ../ajaxPlugin.php:1453
+#: ../ajaxPlugin.php:1458 ../ajaxPlugin.php:1473 ../ajaxPlugin.php:1484
+#: ../ajaxPlugin.php:1489 ../ajaxPlugin.php:1494 ../ajaxPlugin.php:1499
+#: ../ajaxPlugin.php:1510 ../ajaxPlugin.php:1515 ../ajaxPlugin.php:1520
+#: ../ajaxPlugin.php:1525 ../ajaxPlugin.php:1537 ../ajaxPlugin.php:1542
+#: ../ajaxPlugin.php:1565 ../ajaxPlugin.php:1570 ../ajaxPlugin.php:1575
+#: ../ajaxPlugin.php:1580 ../ajaxPlugin.php:1585 ../ajaxPlugin.php:1596
+#: ../ajaxPlugin.php:1607 ../ajaxPlugin.php:1612
+msgid "Example"
+msgstr ""
+
+#: ../ajaxPlugin.php:1126
+msgid "Choose an existing page from your website"
+msgstr ""
+
+#: ../ajaxPlugin.php:1133
+msgid "Select a page"
+msgstr ""
+
+#: ../ajaxPlugin.php:1145
+msgid "Fancybox Flash video shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1161
+msgid "Video shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1191
+msgid "Example: 500"
+msgstr ""
+
+#: ../ajaxPlugin.php:1196
+msgid "Example: 300"
+msgstr ""
+
+#: ../ajaxPlugin.php:1202
+msgid "HTML5"
+msgstr ""
+
+#: ../ajaxPlugin.php:1203
+msgid "Flash"
+msgstr ""
+
+#: ../ajaxPlugin.php:1206
+msgid "Dailymotion"
+msgstr ""
+
+#: ../ajaxPlugin.php:1212
+msgid "Clip id"
+msgstr ""
+
+#: ../ajaxPlugin.php:1226
+msgid "Poster"
+msgstr ""
+
+#: ../ajaxPlugin.php:1228
+msgid "Example: http://example.com/assets/image.jpg"
+msgstr ""
+
+#: ../ajaxPlugin.php:1232
+msgid "Mp4"
+msgstr ""
+
+#: ../ajaxPlugin.php:1237
+msgid "Webm"
+msgstr ""
+
+#: ../ajaxPlugin.php:1242
+msgid "Ogg"
+msgstr ""
+
+#: ../ajaxPlugin.php:1250
+msgid "Audio shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1264
+msgid "Soundcloud shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1281
+msgid "Mixcloud shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1301
+msgid "Post types carousel shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1304
+msgid "Choose posts"
+msgstr ""
+
+#: ../ajaxPlugin.php:1322
+msgid "Number"
+msgstr ""
+
+#: ../ajaxPlugin.php:1330
+msgid "Animated Boxes shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1333
+msgid "Choose post type"
+msgstr ""
+
+#: ../ajaxPlugin.php:1355
+msgid "Icon shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1358
+msgid "Choose icon"
+msgstr ""
+
+#: ../ajaxPlugin.php:1371
+msgid "1x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1372
+msgid "2x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1373
+msgid "3x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1374
+msgid "4x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1375
+msgid "5x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1376
+msgid "6x"
+msgstr ""
+
+#: ../ajaxPlugin.php:1390
+msgid "Google Charts shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1397 ../ajaxPlugin.php:1471 ../ajaxPlugin.php:1487
+#: ../ajaxPlugin.php:1513 ../ajaxPlugin.php:1540 ../ajaxPlugin.php:1568
+#: ../ajaxPlugin.php:1594 ../ajaxPlugin.php:1610
+msgid "Data"
+msgstr ""
+
+#: ../ajaxPlugin.php:1414 ../ajaxPlugin.php:1432
+msgid "Options"
+msgstr ""
+
+#: ../ajaxPlugin.php:1417
+msgid "Additional options for: "
+msgstr ""
+
+#: ../ajaxPlugin.php:1419
+msgid "vAxis title"
+msgstr ""
+
+#: ../ajaxPlugin.php:1421
+msgid "Example: Month"
+msgstr ""
+
+#: ../ajaxPlugin.php:1424
+msgid "hAxis title"
+msgstr ""
+
+#: ../ajaxPlugin.php:1426
+msgid "Example: Year"
+msgstr ""
+
+#: ../ajaxPlugin.php:1428
+msgid "Additional options for: combo"
+msgstr ""
+
+#: ../ajaxPlugin.php:1430
+msgid "Series Type"
+msgstr ""
+
+#: ../ajaxPlugin.php:1434
+msgid "Additional options for"
+msgstr ""
+
+#: ../ajaxPlugin.php:1436
+msgid "Red from"
+msgstr ""
+
+#: ../ajaxPlugin.php:1441
+msgid "Red to"
+msgstr ""
+
+#: ../ajaxPlugin.php:1446
+msgid "Yellow from"
+msgstr ""
+
+#: ../ajaxPlugin.php:1451
+msgid "Yellow to"
+msgstr ""
+
+#: ../ajaxPlugin.php:1456
+msgid "Minor Ticks"
+msgstr ""
+
+#: ../ajaxPlugin.php:1464
+msgid "Google Chart - Pie shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1479
+msgid "Google Chart - Bar shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1492 ../ajaxPlugin.php:1518 ../ajaxPlugin.php:1573
+msgid "hAxis"
+msgstr ""
+
+#: ../ajaxPlugin.php:1497 ../ajaxPlugin.php:1523 ../ajaxPlugin.php:1578
+msgid "vAxis"
+msgstr ""
+
+#: ../ajaxPlugin.php:1505
+msgid "Google Chart - Area shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1532
+msgid "Google Chart - Geo shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1545 ../ajaxPlugin.php:1615
+msgid "Primary color"
+msgstr ""
+
+#: ../ajaxPlugin.php:1548
+msgid "Default: green"
+msgstr ""
+
+#: ../ajaxPlugin.php:1551 ../ajaxPlugin.php:1621
+msgid "Secondary color"
+msgstr ""
+
+#: ../ajaxPlugin.php:1560
+msgid "Google Chart - Combo shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1583
+msgid "Series"
+msgstr ""
+
+#: ../ajaxPlugin.php:1591
+msgid "Google Chart - Organizational shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1602
+msgid "Google Chart - Bubble shortcode"
+msgstr ""
+
+#: ../ajaxPlugin.php:1618
+msgid "Default: yellow"
+msgstr ""
+
+#: ../ajaxPlugin.php:1624
+msgid "Default: red"
+msgstr ""
+
+#: ../ajaxPlugin.php:1644
+msgid ""
+"Please click on Preview button each time you make changes in above section."
+msgstr ""
+
+#: ../shortcodes.php:1124 ../shortcodes.php:1249
+msgid "Submit"
+msgstr ""
+
+#: ../shortcodes.php:1159 ../shortcodes.php:1287
+msgid "Difficult to read? Refresh: "
+msgstr ""
+
+#: ../shortcodes.php:1853 ../shortcodes.php:1861
+msgid "Read More"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:62
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:107
+msgid "Supreme Shortcodes &#8594; Settings"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:114
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:115
+msgid "Colors"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:116
+#: ../admin/supreme-shortcodes-admin.php:165
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:117
+msgid "Page Snippets"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:118
+msgid "Video Tutorials"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:123
+msgid "Welcome"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:124
+msgid "Welcome to Supreme Shortcodes Options Panel!"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:125
+msgid ""
+"This plugin adds 100+ extra functionalities to your website. You can choose "
+"from static elements such as: Boxes, Responsive rows and columns, Lines and "
+"dividers to animated elements such as: 3D Buttons, Modals and Popovers or "
+"Toggles and Tabs. Pretty much anything needed for todays modern web "
+"presentation."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:129
+msgid "Twitter Bootstrap"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:131
+msgid "Load Twitter Bootstrap? "
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:133
+msgid ""
+"If your theme already use Twitter Bootstrap framework (v2.3.2), there is no "
+"need to load it twice."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:141
+msgid "Changable Shortcode Colors"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:173
+msgid "Pre-built Page Snippets"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:174
+msgid ""
+"We've created all those page snippets to show you that building exceptional "
+"pages can be really easy.<br>Use them as a base to start creating your "
+"awesome stuff.<br> Copy/Paste desired Page Snippet into your WordPress text "
+"editor."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:175
+msgid ""
+"<strong>NOTE: </strong>It is probably better to paste them with the Text "
+"mode turned on, insted of Visual Mode."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:177
+msgid "About Us"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:177
+#: ../admin/supreme-shortcodes-admin.php:178
+#: ../admin/supreme-shortcodes-admin.php:179
+#: ../admin/supreme-shortcodes-admin.php:180
+#: ../admin/supreme-shortcodes-admin.php:181
+#: ../admin/supreme-shortcodes-admin.php:182
+#: ../admin/supreme-shortcodes-admin.php:183
+#: ../admin/supreme-shortcodes-admin.php:184
+#: ../admin/supreme-shortcodes-admin.php:185
+msgid "Demo"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:177
+#: ../admin/supreme-shortcodes-admin.php:178
+#: ../admin/supreme-shortcodes-admin.php:179
+#: ../admin/supreme-shortcodes-admin.php:180
+#: ../admin/supreme-shortcodes-admin.php:181
+#: ../admin/supreme-shortcodes-admin.php:182
+#: ../admin/supreme-shortcodes-admin.php:183
+#: ../admin/supreme-shortcodes-admin.php:184
+#: ../admin/supreme-shortcodes-admin.php:185
+msgid "Download"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:178
+msgid "Meet The Team"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:179
+msgid "We Are Hiring"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:180
+msgid "Services Page"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:181
+msgid "F.A.Q."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:182
+msgid "Process Page"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:183
+msgid "Pricing Page"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:184
+msgid "History Page"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:185
+msgid "Contact Us"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:187
+msgid "And many more to come."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:187
+msgid "See them all here."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:192
+msgid "Tutorials and How-To"
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:193
+msgid "Browse the YouTube playlist. More videos and How-To's coming very soon."
+msgstr ""
+
+#: ../admin/supreme-shortcodes-admin.php:205
+msgid "Update Options"
+msgstr ""
