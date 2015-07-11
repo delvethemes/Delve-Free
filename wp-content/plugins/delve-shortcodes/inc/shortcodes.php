@@ -217,7 +217,10 @@ if( !function_exists( 'fun_delve_recent_post' ) ) {
 				$recent_posts .= get_the_post_thumbnail();
 				$recent_posts .= '</div></header>';		
 			endif;
-				
+			
+			if( $atts['show_title'] == 'yes/no' ) 
+				 $atts['show_title'] = 'yes' ;
+				 
 			if( $atts['show_title'] == 'yes' ) {
 	
 				$recent_posts .= '<div class="post_heading"><h3 class="delve-entry-title">
@@ -240,6 +243,9 @@ if( !function_exists( 'fun_delve_recent_post' ) ) {
 									   
 				$recent_posts .= '</div>';
 			}
+			
+			if( $atts['show_excerpt'] == 'yes/no' )
+				$atts['show_excerpt'] = 'yes';
 				
 			if( $atts['show_excerpt'] == 'yes' ) {
 				$recent_posts .= '<div class="recent-post-content">';

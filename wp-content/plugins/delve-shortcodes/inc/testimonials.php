@@ -96,6 +96,11 @@ function delve_testimonial_slider_function($atts) {
 	}
 	
     ob_start();
+	if( $atts['img_position'] == 'top/left' ) {
+		$atts['img_position'] = 'top';
+		$atts['class'] = 'top';	
+	}
+		
 	echo '<div id="t_slider" class="testimonials-slider-container '.$atts['img_position'].' '.$atts['class'].'" '.$style.'>';
 	echo '<div class="testimonials-slider"><ul class="slides">';
 	
