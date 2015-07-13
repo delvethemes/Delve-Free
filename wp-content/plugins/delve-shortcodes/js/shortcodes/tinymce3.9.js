@@ -81,7 +81,7 @@
 		}
 		
 		if(id == "delve_slider") {
-			ed.insertContent('[delve_slider type="basic/thumbnail" animation="fade/slide" border="yes/no"][delve_slide url="" link=""][delve_slide url="" link=""][/delve_slider]');
+			ed.insertContent('[delve_slider type="basic/thumbnail" animation="fadeIn/slide" border="yes/no"][delve_slide url="" link=""][delve_slide url="" link=""][/delve_slider]');
 		}
 		
 		if(id == "delve_magazine_style") {
