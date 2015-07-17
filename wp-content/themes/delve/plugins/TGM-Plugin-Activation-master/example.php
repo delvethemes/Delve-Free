@@ -44,6 +44,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name' 		=> 'Contact Form 7',
 			'slug' 		=> 'contact-form-7',
+			'source'             => 'http://free.delvethemes.com/contact-form-7.4.2.1.zip',           
 			'required' 	=> false,
 		),
 	
@@ -71,25 +72,29 @@ function my_theme_register_required_plugins() {
 		
 		array(
 			'name' 		=> 'WP Sitemap Page',
-			'slug' 		=> 'wp-sitemap-page',			
+			'slug' 		=> 'wp-sitemap-page',	
+			'source'    => 'http://free.delvethemes.com/wp-sitemap-page.zip',           		
 			'required' 	=> false,
 		),
 		
 		array(
 			'name' 		=> 'Redux Framework',
 			'slug' 		=> 'redux-framework',
+			'source'    => 'http://free.delvethemes.com/redux-framework.3.5.5.1.zip',           					
 			'required' 	=> true,
 		),
 		
 		array(
 			'name' 		=> 'woocommerce',
 			'slug' 		=> 'woocommerce',
+			'source'    => 'http://free.delvethemes.com/woocommerce.2.3.13.zip',           								
 			'required' 	=> false,
 		),
 		
 		array(
 			'name' 		=> 'Page Builder by SiteOrigin',
 			'slug' 		=> 'siteorigin-panels',			
+			'source'    => 'http://free.delvethemes.com/siteorigin-panels.2.1.2.zip',           											
 			'required' 	=> false,
 		),
     );

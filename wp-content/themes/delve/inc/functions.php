@@ -46,6 +46,7 @@ if ( !function_exists('delve_nav_walker') ):
                 'primary-menu' => __('Primary Menu', 'primary_menu'),
 				'secondary-menu' => __('Secondary Menu', 'secondary_menu'),
 				'singlepage-menu' => __('Single Page Menu', 'singlepage_menu'),
+				'footer-menu' => __('Footer Menu', 'footer_menu'),
             )
 		);
 		require( 'class-delve_nav_walker.php' );
@@ -163,6 +164,24 @@ function delve_secondary_nav() {
 </div>
 <?php }
 endif;
+
+
+/******* Delve Footer Nav *******/
+if( !function_exists( 'delve_footer_nav' ) ):
+function delve_footer_nav() {
+?>
+<div class="delve-secondary-nav-container">
+	<?php 
+	$delve_footer_nav = array(
+		'theme_location'  => 'footer-menu',
+		'fallback_cb'     => false
+	);
+				
+	wp_nav_menu( $delve_footer_nav ); ?>
+</div>
+<?php }
+endif;
+
 /****** Create title bar function *******/
 if( !function_exists( 'delve_titlebar' ) ):
 function delve_titlebar( $c_page_ID ) {

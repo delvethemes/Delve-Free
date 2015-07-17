@@ -42,8 +42,8 @@
             <div class="col-md-6 footer-right-side">
 				<?php if( $data['footer-right-side'] == 'social_icons' ) {
 					delve_social_icon( false );
-				} else if ( $data['footer-right-side'] == 'sec_menu' ) {
-					delve_secondary_nav();
+				} else if ( $data['footer-right-side'] == 'footer_menu' ) {
+					delve_footer_nav();
 				} ?>
 			</div>
 		</div>

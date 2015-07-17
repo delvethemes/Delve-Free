@@ -1363,7 +1363,7 @@ $this->sections[] = array(
 			'options'   => array(
 				NULL			=> 'None', 
 				'social_icons'	=> 'Social Icons',
-				'sec_menu'		=> 'Secondary Menu'
+				'footer_menu'		=> 'Footer Menu'
 			),
 			'default'   => NULL
 		),

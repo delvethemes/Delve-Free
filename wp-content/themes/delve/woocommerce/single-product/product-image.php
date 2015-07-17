@@ -52,7 +52,7 @@ $attachment_count   = count( $product->get_gallery_attachment_ids() );
 				}
 			} else {
 				
-				echo apply_filters( 'woocommerce_single_product_image_html', sprintf( '<div class="item" data-slide-number="0"><img src="%s" alt="Placeholder" /></div>', wc_placeholder_img_src() ), $post->ID );
+				echo apply_filters( 'woocommerce_single_product_image_html', sprintf( '<div class="item active" data-slide-number="0"><img src="%s" alt="Placeholder" /></div>', wc_placeholder_img_src() ), $post->ID );
 			}?> 
             </div>
         
