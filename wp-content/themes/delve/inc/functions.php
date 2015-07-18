@@ -43,10 +43,10 @@ if ( !function_exists('delve_nav_walker') ):
 		
         register_nav_menus(
             array(
-                'primary-menu' => __('Primary Menu', 'primary_menu'),
-				'secondary-menu' => __('Secondary Menu', 'secondary_menu'),
-				'singlepage-menu' => __('Single Page Menu', 'singlepage_menu'),
-				'footer-menu' => __('Footer Menu', 'footer_menu'),
+                'primary-menu' => __('Primary Menu', 'delve'),
+				'secondary-menu' => __('Secondary Menu', 'delve'),
+				'singlepage-menu' => __('Single Page Menu', 'delve'),
+				'footer-menu' => __('Footer Menu', 'delve'),
             )
 		);
 		require( 'class-delve_nav_walker.php' );
