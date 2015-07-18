@@ -727,6 +727,7 @@ form.cart {
 	padding: 10px 0px;
 	border-bottom: 1px solid #e7e6e6;
 	text-decoration:none;
+	color:#2c3e50;
 }
 .woocommerce-tabs .tabs li a .arrow,
 .woocommerce-tabs .tabs li a:hover .arrow {

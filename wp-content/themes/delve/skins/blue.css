@@ -125,7 +125,9 @@ ul#menu-secondary-menu li a,
 .delve-thank-you .order_details li:before,
 .cart-content a:hover,
 .cart-checkout a:hover,
-.navbar-header .cart-button i:hover {
+.navbar-header .cart-button i:hover,
+.woocommerce-tabs .tabs li a:hover,
+.woocommerce-tabs .tabs li.active a {
 	color:#3498db !important;
 }
 .product-buttons a:hover {
