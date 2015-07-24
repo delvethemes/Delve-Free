@@ -289,6 +289,14 @@ $this->sections[] = array(
 			'desc'      => __('Note: Delve Shortcodes plugin must be active to apply these settings.', 'delve')
 		),
 		
+		array(
+			'id'        => 'image-404',
+			'type'      => 'media',
+			'title'     => __('404 Page Image', 'delve'),
+			'desc'      => __('', 'delve'),
+			'subtitle'  => __('Upload an image that should be displayed on 404 Page when any page is not found.', 'delve'),
+		),
+		
 		array (
 			'id'		=> 'portfolio-switch',
 			'type'		=> 'switch',

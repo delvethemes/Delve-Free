@@ -2237,6 +2237,61 @@ p.demo_store {
 .delve-order-details .order_details.shop_table tfoot tr th {
 	width:30%;
 }
+
+/* Social Sharing buttons on single product page */
+.woocommerce .social-share,
+.woocommerce .social-share li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.woocommerce .social-share {
+  text-align: left;
+  margin-top: 8px;
+}
+.has-sidebar .woocommerce .social-share li,
+.has-sidebar .woocommerce-container .social-share li {
+  width: 24%;
+  padding: 10px 19px;
+}
+.woocommerce .social-share li {
+  display: inline-block;
+  text-align: left;
+  width: 40px;
+  padding: 10px 2px;
+}
+.double-sidebars.woocommerce .social-share li {
+  float: left;
+}
+.woocommerce .social-share li:last-child {
+  border-right: 0;
+}
+.woocommerce .social-share li span {
+  display: block; 
+}
+
+.woocommerce .social-share li a{
+  color:#65727B;
+}
+
+.social-share li a i {
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+  font-size: 18px;
+  color: #ffffff;
+  border-color: #a1b1bc;
+  background-color: #a1b1bc; 
+  background-clip: inherit;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  margin-top: 2px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;	
+}
+
 @media only screen and (max-width : 1024px) {
 .products li {
 	margin-right:1%;

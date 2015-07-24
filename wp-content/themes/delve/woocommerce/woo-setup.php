@@ -58,6 +58,10 @@ if( ! class_exists( 'DelveTemplateWoo' ) ) {
 
     	} // end __construct();
 		
+		
+		
+		
+		
 		function delve_wrapper_start() {
 			
 			$d_cl = delve_content_layout( get_option( 'woocommerce_shop_page_id' ) );
@@ -845,4 +849,36 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 <?php
 	$fragments['div.cart-contents'] = ob_get_clean();
 	return $fragments;
+}
+
+function woocommerce_template_single_sharing()
+{
+	global $smof_data;
+	$nofollow = ' rel="nofollow"';
+
+	$social = '<h3 style="text-align:left">'.__('Share This Product','Delve').'</h3><div style="clear:both;"></div>';	
+		$social .= '<ul class="social-share clearfix">
+			<li class="facebook">
+				<a href="http://www.facebook.com/sharer.php?s=100&p&#91;url&#93;=' . get_permalink() . '&p&#91;title&#93;=' . wp_strip_all_tags(get_the_title(), true) .'" target="_blank"' . $nofollow .'>
+					<i class="fa square-yes fa-facebook"></i>
+				</a>
+			</li>
+			<li class="twitter">
+				<a href="https://twitter.com/share?text=' . wp_strip_all_tags(get_the_title(), true) .' ' . get_permalink() . '" target="_blank"' . $nofollow .'>
+					<i class="fa square-yes fa-twitter"></i>
+				</a>
+			</li>
+			<li class="googleplus">
+				<a href="https://plus.google.com/share?url=' . wp_strip_all_tags(get_the_title(), true) .' ' . get_permalink() . '" target="_blank"' . $nofollow .'>
+					<i class="fa square-yes fa-google-plus"></i>					
+				</a>
+			</li>			
+			<li class="email">
+				<a href="mailto:?subject=' . wp_strip_all_tags(get_the_title(), true) . '&amp;body=' . get_permalink() . '" target="_blank"' . $nofollow .'>
+					<i class="fa square-yes fa-envelope"></i>					
+				</a>
+			</li>
+		</ul>';
+
+	echo $social;
 }

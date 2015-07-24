@@ -190,6 +190,12 @@ input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover{
 .dropdown-menu > .active > a:focus {
   background-color: #1abc9c; 
 }
+/* Woocommerece */
+.social-share li a i:hover{
+  background-color: #1abc9c; 
+  border-color:#1abc9c;
+}
+
 @media only screen and (max-width: 600px) {
 	.navbar-inverse .navbar-toggle .icon-bar{
 		background:#1abc9c;
